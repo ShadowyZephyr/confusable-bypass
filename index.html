@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Bypass</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" href="/icon.png" type="image/x-icon">
+    <script type="text/javascript" src="/confusable-bypass/app.js"></script>
+    <script type="text/javascript" src="/app.js"></script>
+  </head>
+  <body>
+    <div id="container"> 
+        <h1>Filter Bypass</h1> 
+        <p>Replaces letters with unicode confusables to bypass and evade filters or bots. Certain characters may look slightly different to their latin counterparts on some sites due to differing fonts. Inspired by <a href="https://lingojam.com/FilterEvasion">this LingoJam page</a> but this one works with capital letters. (And doesn't have a picture of Obama).</p>
+        <textarea id="text" oninput="filter()" placeholder="Your text here"></textarea>
+        <textarea id="response" placeholder="And evasive text will appear here"></textarea>
+    </div>
+  </body>
+</html>
